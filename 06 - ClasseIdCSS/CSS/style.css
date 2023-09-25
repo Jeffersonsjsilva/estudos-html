@@ -1,0 +1,27 @@
+/* classe */
+.paragrafo {
+    color: yellow;
+    padding: 5px;
+    background-color: #000;
+}
+/* id */
+#titulo-com-id{
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* regra */
+h1{
+    border-bottom: 2px solid blue;
+
+}
+#id-titulo{
+    border-bottom: 3px solid black;
+}
+
+.class-titulo{
+    border-bottom: 3px solid red;
+}
+

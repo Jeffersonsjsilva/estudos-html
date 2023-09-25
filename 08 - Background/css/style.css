@@ -1,0 +1,164 @@
+/*background image*/
+
+.bgimage{
+background-image: url(../img/dados.png);
+padding: 50px, 10px;
+color: #f7e707;
+text-align: center;
+}
+
+.bgimg-naocentral, .bgimg-central{
+ background-image: url(../img/senac.png);
+ width: 400px;
+ height: 400px;
+}
+
+.bgimg-central{
+background-position: center;
+background-size: cover;
+}
+
+/* Altura e largura */
+
+.altura-largura{
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.altura-largura-nova{
+    height: 200px;
+    background-color: #999;
+}
+
+/* Padding */
+
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    height: 200px;
+    width: 200px;
+}
+.com-padding{
+background-color: blueviolet;
+height: 300px;
+width: 300px;
+padding: 10px;
+}
+
+.padding-lados{
+    background-color: crimson;
+    color: #fff;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+
+/* Shorthand properties / propiedades abreviadas */
+.shorthandpadding{
+    background-color: #333;
+    color:#fff;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthandpadding2{
+background-color: #555;
+color:#fff;
+padding: 10px 20px;
+}
+
+/* bordas */
+.border{
+    border:5px solid blue;
+    padding: 10px;
+}
+
+.border2{
+    border: 2px dotted #785;
+    padding: 25px;
+}
+
+.bordaesquerda{
+    border-left: 30px solid blueviolet;
+    padding: 30px;
+    background-color: #785;
+}
+.bordainferior{
+    border-bottom: 5px dashed blueviolet;
+    padding: 30px;
+    background-color: #785;
+}
+
+.bordadireita{
+    border-right: 30px double blueviolet;
+    padding: 30px;
+    background-color: #785;
+}
+.bordasuperior{
+    border-top: 5px dotted blueviolet;
+    padding: 30px;
+    background-color: #785;
+}
+
+.bordatotal{
+    border-left: 5px double blueviolet;
+    border-right: 5px solid pink;
+    border-top: 5px dotted yellow;
+    border-bottom: 5px dashed orange;
+    padding: 10px;
+    background-color: #785;
+
+}
+
+/* Borda arredondada */
+.paragrafo-arredondado{
+    border: 5px solid red;
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.paragrafo-arredondado2{
+    background-color: burlywood;
+    color: royalblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Margem / margin */
+
+.margem{
+    margin: 10px;
+    background-color: darkblue;
+    color: yellow;
+}
+
+/* Margem por lados */
+.margemtop{
+    margin-top: 70px;
+    background-color: darkblue;
+    color: yellow;
+    padding: 10px;
+}
+
+.margemdiferenciada{
+
+    background-color: cornflowerblue;
+    margin: 7px 10px 9px 30px;
+}
+
+/* Todas as propiedades do box model */
+.boxmodel{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 15px 25px;
+    border: 5px solid violet;
+    border-radius: 10px;
+    margin: auto; 
+
+}
