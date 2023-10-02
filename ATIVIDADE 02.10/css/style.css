@@ -1,0 +1,70 @@
+/*Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@200&display=swap');
+
+.conteudo{
+    background-color: rgb(170, 216, 170);
+    font-family: 'Onest', sans-serif;
+    border: 5px solid #ffd700;
+    padding: 5px;
+    margin: 20px;
+    text-align:justify;
+}
+
+.titulo-sobre{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.conteudo2{
+    background-color: rgb(170, 216, 170);
+    font-family: 'Onest', sans-serif;
+    border: 5px solid #ffd700;
+    padding: 5px 10px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.container{
+display: block;
+height: 200px;
+width: 1000px;
+margin: auto;
+}
+
+.titulo-receita{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(170, 216, 170);
+    border: 5px solid #ffd700;
+}
+
+.receita1{
+    text-decoration: none;
+    background-color: rgb(170, 216, 170);
+    font-family: cursive;
+    
+}
+.receita2{
+    text-decoration: none;
+    background-color: rgb(170, 216, 170);
+    font-family: cursive
+    
+}
+.receitas{
+    background-color: rgb(170, 216, 170);
+    font-family: 'Onest', sans-serif;
+    border: 5px solid #ffd700;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+body{
+    background-color: rgba(3, 3, 143, 0.342);
+}
+
+.footer{
+background-color: #e9d772;
+text-align: center;
+}

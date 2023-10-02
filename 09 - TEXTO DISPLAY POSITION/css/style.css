@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+/* Alinhamento de texto  */
+
+.alinhamento-direita{
+    text-align: right;
+}
+
+.alinhamento-esquerda{
+    text-align: left;
+}
+
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon;
+}
+
+.alinhamento-justificado{
+    text-align: justify;
+    color: chocolate;
+    border: 3px solid salmon;
+    margin-top: 10px;
+    width: 200px;
+}
+
+/* Text decoration */
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+}
+
+.remove-underline{
+    text-decoration: none;
+}
+
+/* Espaçamento entre as letras */
+
+.space{
+    letter-spacing: 10px;
+}
+
+
+/* Fontes */
+.fonte-serif{
+    font-family: serif;
+    font-size:xx-large;
+}
+
+.fonte-sans-serif{
+    font-family: sans-serif;
+    font-size:xx-large;
+}
+
+.fonte-monospace{
+    font-family: monospace;
+    font-size:xx-large;
+}
+
+.fonte-cursive{
+    font-family: cursive;
+    font-size:xx-large;
+}
+
+.fonte-fantasy{
+    font-family: fantasy;
+    font-size:xx-large;
+}
+.trazendo-fonte-familiadefonte{
+    
+font-family: Arial, Helvetica, sans-serif;
+font-size:xx-large;
+}
+/* Fonte importadada */
+
+.importando-fonte{
+font-family: 'Sedgwick Ave Display', cursive;
+font-size:xx-large;
+}
+
+.importando-fonte-2{
+    font-family: 'Kenia', cursive;
+    font-size: xx-large;
+}
