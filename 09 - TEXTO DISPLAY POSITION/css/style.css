@@ -89,3 +89,139 @@ font-size:xx-large;
     font-family: 'Kenia', cursive;
     font-size: xx-large;
 }
+
+/* Estilo de fonte */
+
+.normal{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique ;
+}
+
+/* Espessura da fonte */
+
+.lighter, .bold, .bolder{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.lighter{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Tamanho da fonte */
+
+.tamanho-30px{
+    font-size: 30px;
+}
+
+.tamanho-150px{
+    font-size: 150px;
+}
+
+.xx-small{
+    font-size: xx-small;
+}
+
+.biglarge{
+    font-size: xx-large;
+}
+
+/* Display: bloco embutido */
+
+.inline-block{
+    height: 500px;
+    width: 500px;
+    background-color: #754;
+    font-size: xx-large;
+    color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+/* Display: bloco de exibição */
+.bloco{
+    background-color: darkmagenta;
+    font-size: xx-large;
+    color: white;
+    margin: 10px;
+    display: block;
+}
+/* escondendo elemento */
+.escondendo{
+    display: none;
+}
+
+/* Posição estatica: ele segue um fluxo do html, static não é afetado
+por top, left, right, bottom */
+.static{
+    background-color: #848;
+    color:#fff;
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+
+/* posição relativa */
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 50px;
+}
+
+/* posição absoluta */
+
+.absolute{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #785;
+    color: #fff;
+    top: 2px;
+    right: 2px;
+}
+
+/* Posição relative + absolute */
+
+.bloco-relativo{
+    height: 250px;
+    width: 250px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    position: relative;
+}
+
+.bloco-absoluto-1, .bloco-absoluto-2{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    position: absolute;
+}
+
+.bloco-absoluto-1{
+    top: 2px;
+    left: 2px;
+}
+
+.bloco-absoluto-2{
+    bottom: 10px;
+    right: 10px;
+}
