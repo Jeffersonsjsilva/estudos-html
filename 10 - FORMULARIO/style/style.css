@@ -1,0 +1,13 @@
+/* Primeiro formularo */
+
+body{
+    padding-bottom: 500px;
+}
+
+div{
+    margin-top: 15px;
+}
+
+div input, div label{
+    display: block;
+}

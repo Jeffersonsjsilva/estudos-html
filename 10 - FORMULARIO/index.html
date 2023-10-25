@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style/style.css" class="rel">
+</head>
+
+<body>
+    <!-- Primeiro formulário -->
+    <h1>Formulários</h1>
+    <form>
+        <div>
+            <label>Nome</label>
+            <input type="text" />
+        </div>
+    </form>
+    <!-- Atributo Action e Method -->
+    <h1>Formulários</h1>
+    <form action="registro.php" method="GET">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- Atributo name -->
+        <div>
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!-- Atributo Label -->
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- Select -->
+        <div>
+            <label for="cidade">Selecione sua cidade</label>
+            <select name="cidade">
+                <option value="São Paulo">São Paulo</option>
+                <option value="Osasco">Osasco</option>
+                <option value="Taboao da Serra">Taboão da Serra</option>
+            </select>
+        </div>
+
+        <!-- Selected -->
+        <div>
+            <label for="times">Quem vai ganhar a próxima Copa do Mundo</label>
+            <select name="times">
+                <option value="argentina">Argentina</option>
+                <option value="franca">França</option>
+                <option value="alemanha">Alemanha</option>
+                <option value="brasil" selected>Brasil</option>
+            </select>
+        </div>
+        <!-- Seleção de város select -->
+        <div>
+            <label for="acessorios">Selecione os acessórios do seu computador</label>
+            <select name="acessorios" multiple>
+                <option value="mouse">Mouse</option>
+                <option value="teclado">Teclado</option>
+                <option value="Fone-de-ouvido">Fone de ouvido</option>
+                <option value="webcam">Webcam</option>
+            </select>
+        </div>
+
+        <!-- Textarea -->
+        <div>
+            <label for="feedback">Descreva os seu feedabck sobre o noso site:</label>
+            <textarea name="feedabck"></textarea>
+        </div>
+        <!-- Fieldset e Legend -->
+        <div>
+            <fieldset>
+                <legend>Informações do Usuário</legend>
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="password" name="senha" placeholder="Senha">
+            </fieldset>
+        </div>
+
+        <!-- Atribut Submit -->
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
