@@ -1,0 +1,126 @@
+section {
+    border: 2px solid black;
+    margin: auto;
+    width: 800px;
+    height: 350px;
+}
+
+.tit-form {
+    margin-left: 20px;
+}
+
+.nome-idade,
+.email-tam,
+.cid-uf-cep,
+.rua-num,
+.limpar-enviar {
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+}
+
+.inp-numero,
+.inp-idade {
+    width: 60px;
+}
+
+.inp-cep {
+    width: 100px;
+}
+
+.inp-rua {
+    margin-left: 35px;
+}
+
+.inp-nome {
+    margin-left: 16px;
+}
+
+.inp-email {
+    margin-left: 12px;
+}
+
+.div-form-idade,
+.div-form-tam,
+.div-form-uf,
+.div-form-cep,
+.div-form-num,
+.enviar {
+    margin-left: 20px;
+}
+
+.div-form-idade,
+.div-form-tam,
+.div-form-uf,
+.div-form-cep,
+.div-form-num,
+.div-form-nome,
+.div-form-email,
+.div-form-cid,
+.div-form-rua {
+    font-size: 20px;
+}
+
+input,
+select {
+    border-radius: 10px;
+    font-size: 23px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+
+
+
+@media screen and (max-width: 470px) {
+
+    section {
+        width: auto;
+        height: auto;
+    }
+
+    .nome-idade,
+    .email-tam,
+    .cid-uf-cep,
+    .rua-num,
+    .limpar-enviar {
+        padding-bottom: 5px;
+        margin: auto;
+        display: block;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    .div-form-idade,
+    .div-form-tam,
+    .div-form-uf,
+    .div-form-cep,
+    .div-form-num {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .limpar-enviar {
+        display: flex;
+    }
+
+    .inp-rua,
+    .inp-cep,
+    .inp-cid,
+    .inp-email,
+    .inp-nome,
+    .inp-idade,
+    .inp-tam,
+    .inp-numero {
+        margin: auto;
+        margin-left: 8px;
+    }
+
+    input,
+    select {
+        border-radius: 10px;
+        font-size: 18px;
+        border: 2px solid black;
+    }
+}
