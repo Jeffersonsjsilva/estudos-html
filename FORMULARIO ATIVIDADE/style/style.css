@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 section {
-    border: 2px solid black;
+    border: 2px solid #D60117;
     margin: auto;
     width: 800px;
-    height: 350px;
+    height: auto;
+    background-image: url(../img/Sonic-Logo-opaco.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 5px #D60117 ;
 }
 
 .tit-form {
     margin-left: 20px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+    color: #0B4D84;
+}
+
+label{
+    font-family: 'Luckiest Guy', cursive;
+    color: #0B4D84;
 }
 
 .nome-idade,
@@ -15,6 +30,7 @@ section {
 .rua-num,
 .limpar-enviar {
     display: flex;
+    flex-wrap: wrap;
     margin: 15px;
     padding: 5px;
 }
@@ -45,64 +61,50 @@ section {
 .div-form-uf,
 .div-form-cep,
 .div-form-num,
-.enviar {
-    margin-left: 20px;
+.div-form-nome,
+.div-form-email,
+.div-form-cid,
+.div-form-rua {
+    font-size: 25px;
 }
 
 .div-form-idade,
 .div-form-tam,
 .div-form-uf,
 .div-form-cep,
-.div-form-num,
-.div-form-nome,
-.div-form-email,
-.div-form-cid,
-.div-form-rua {
-    font-size: 20px;
+.div-form-num {
+    margin-left: 10px;
 }
 
 input,
 select {
-    border-radius: 10px;
-    font-size: 23px;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 25px;
     border: 2px solid black;
     margin-left: 10px;
+    color:#0B4D84 ;
+    font-family: 'Luckiest Guy', cursive;
 }
 
+.div-form-enviar :hover{
+    background-color: #F6CB74;
+    color: black;
+}
 
-
-
-@media screen and (max-width: 470px) {
-
+/* Responsivo */
+@media screen and (max-width: 800px) {
     section {
         width: auto;
-        height: auto;
+        text-align: center;
     }
 
     .nome-idade,
     .email-tam,
     .cid-uf-cep,
-    .rua-num,
-    .limpar-enviar {
-        padding-bottom: 5px;
-        margin: auto;
-        display: block;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-
-    .div-form-idade,
-    .div-form-tam,
-    .div-form-uf,
-    .div-form-cep,
-    .div-form-num {
-        margin-top: 20px;
-        margin-left: 0;
-    }
-
-    .limpar-enviar {
-        display: flex;
+    .rua-num {
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .inp-rua,
@@ -113,14 +115,29 @@ select {
     .inp-idade,
     .inp-tam,
     .inp-numero {
-        margin: auto;
-        margin-left: 8px;
+        width: 95%;
+        margin: 10px;
+    }
+
+    .div-form-idade,
+    .div-form-tam,
+    .div-form-uf,
+    .div-form-cep,
+    .div-form-num {
+        margin-top: 10px;
+    }
+
+    .limpar-enviar {
+        display: inline-flex;
+    }
+
+    .div-form-enviar,
+    .div-form-limpar {
+        margin-top: 5px;
     }
 
     input,
     select {
-        border-radius: 10px;
-        font-size: 18px;
-        border: 2px solid black;
+        font-size: 25px;
     }
 }
